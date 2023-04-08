@@ -23,10 +23,4 @@ module "eks" {
             instance_types = ["t2.small"]
         }
     }
-    aws_auth_users = 
-    {
-     userarn  = "arn:aws:iam::273853377645:user/roshan"
-     username = "roshan"
-     groups   = ["system:masters"]    
-    }
 }
